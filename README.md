@@ -1,6 +1,11 @@
 # Futura Vagrant Settup
 ## COPD_Backend and COPD_Auth_server
 
+### Prerequisites
+
+- [Vagrant](http://downloads.vagrantup.com/tags/v1.2.3)
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
 ### Initial Steps
 
 First, git-clone this repository somewhere on your machine.
