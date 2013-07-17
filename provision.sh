@@ -9,8 +9,8 @@ apt-get update
 
 export DEBIAN_FRONTEND=noninteractive
 
-echo "Installing RVM dependencies and curl..."
-apt-get install -y build-essential git curl libxslt-dev libxml2-dev libcurl3-dev mysql-client libmysqlclient-dev nodejs mysql-server
+echo "Installing the software..."
+apt-get install -y build-essential git curl libxslt-dev libxml2-dev libcurl3-dev mysql-client libmysqlclient-dev nodejs mysql-server xvfb firefox
 
 echo "Setting up the database from futura_dev.sql seed..."
 echo "create database futura_dev; create database futura_test;" | mysql -uroot
